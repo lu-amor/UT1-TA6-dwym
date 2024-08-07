@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <h2>Encuesta de Preferencias</h2>
+        <label for="opciones">Seleccione sus opciones favoritas:</label><br>
+    <form action="/action_page.php">
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option><br>
+        </select>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Elija sus autos favoritos</h2>
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Seleccione su opción preferida:</h2><br>
+    <form action="/action_page.php">
+        <input type="radio" id="radio1" name="preferencia" value="opcion1">
+        <label for="radio1">Opción 1</label><br>
+        <input type="radio" id="radio2" name="preferencia" value="opcion2">
+        <label for="radio2">Opción 2</label><br>
+        <input type="radio" id="radio3" name="preferencia" value="opcion3">
+        <label for="radio3">Opción 3</label><br>
+        <input type="radio" id="radio4" name="preferencia" value="opcion4">
+        <label for="radio4">Opción 4</label><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
